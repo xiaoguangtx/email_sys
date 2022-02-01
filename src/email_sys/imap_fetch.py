@@ -195,6 +195,6 @@ if __name__ == '__main__':
     print("uid_new %s" %uid_new)
     
     imap_server='imap.qq.com'
-    password='mpwssqxibtmuecbg'
-    user='2486325784@qq.com'
+    password='xxxxxxxx'
+    user='xxxx@qq.com'
     get_event_loop().run_until_complete(imap_loop(imap_server, user, password))
